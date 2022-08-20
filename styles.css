@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 * {
     box-sizing: border-box;
 }
@@ -10,5 +11,23 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    flex-direction: column;
+    font-family: "Ubuntu" sans-serif;
+}
+
+.bg {
+    background-image: url("11.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(60px);
+}
+
+.loading-text {
+    font-size: 50px;
 }
